@@ -1,0 +1,86 @@
+.profile-app-container .profile-app-toolbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile-app-container .search-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-app-container .input-keyword{
+    border-top: 2px solid #3BB8C3;
+    border-bottom: 2px solid #3BB8C3;
+    border-left: 2px solid #3BB8C3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid #3BB8C3;
+}
+
+.profile-app-container .search-container .search-app{
+    border-left: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.profile-app-container .search-container .search-app i{
+    padding-right: 0px;
+}
+
+.profile-app-container .search-container .clear-app{
+    min-width: 75px;
+    background-color: #fff;
+    color: #3BB8C3;
+    border: none;
+    height: 32px;
+}
+
+.profile-app-container .search-container .clear-app:hover {
+    background-color: #e1fcff;
+}
+
+.profile-app-container .proapp-formdate{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-app-container .proapp-formdate .date-title{
+    font-weight: 600;
+    min-width: 140px;
+}
+
+.profile-app-container .table-responsive .table-action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-app-container .table-responsive .item-profilevalue i{
+    padding-top: .3rem;
+    font-size: 1.2rem;
+}
+
+.profile-app-container .table-responsive .item-profilevalue i:hover{
+    cursor: pointer;
+}
+
+.profile-app-container .table-responsive td {
+    font-size: 1rem;
+}
+
+.profile-app-container .table-responsive .checked {
+    padding-top: .3rem;
+    font-size: 1.8rem;
+}
+
+
+@media only screen and (max-width: 576px){
+    .profile-app-container .proapp-formdate{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: .5rem 0rem;
+    }
+}

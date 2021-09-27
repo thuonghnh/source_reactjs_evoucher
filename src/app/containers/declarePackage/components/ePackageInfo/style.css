@@ -1,0 +1,141 @@
+.offertype-container{
+    margin: 1rem 2rem;
+}
+
+.offertype-container .offer-type .offertype-container-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem 6rem;
+    margin-top: 1rem;
+}
+
+.offertype-container .offer-type .offertype-item {
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+    border: 2px solid #3BB8C3;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 1rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.offertype-container .offer-type .offertype-item:hover{
+    background-color: #e2fdff;
+}
+
+.offertype-container .offer-type .offertype-title span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.offertype-container .offertype-item img{
+    width: 9rem;
+    height: 9rem;
+
+}
+
+.offertype-container .offertype-item span{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.offertype-container .offertype-item div{
+    padding-top: .5rem;
+}
+
+.epackage-info-container .evoucher-type-btn {
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center
+}
+
+.epackage-info-container .evoucher-type-btn span{
+    padding-left: .5rem;
+}
+
+.epackage-info-container .input-epackage-name{
+    border: none;
+    border-bottom: 2px solid #3BB8C3;
+}
+
+.epackage-info-container .evoucher-status{
+    display: flex;
+    align-items: center;
+}
+
+.epackage-info-container .evoucher-apply{
+    border: none;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.epackage-info-container .evoucher-apply .apply-icon{
+    font-size: 2.5rem;
+    padding-right: .5rem;
+}
+
+.epackage-info-container .eVoucher-status-btn{
+    border: none;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.epackage-info-container .eVoucher-status-btn .status-icon{
+    font-size: 3rem;
+    padding-right: .3rem;
+}
+
+.epackage-info-container .evoucher-description textarea{
+    width: 80%;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-size: 14px;
+    max-height: 80px;
+    height: 80px;
+}
+
+.epackage-info-container .evoucher-src {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: .5rem 0rem;
+}
+
+.epackage-info-container .evoucher-src .select-evoucher-src .select-container{
+    border:none;
+    border-bottom: 2px solid #3BB8C3;
+}
+
+.epackage-info-container .evoucher-currencycode{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: .5rem 1rem;
+}
+
+.epackage-info-container .evoucher-cashoutallowed{
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.epackage-info-container .evoucher-check-custonmerinfo{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: .5rem 1rem;
+}
+@media only screen and (max-width: 1400px){
+    .epackage-info-container .evoucher-check-custonmerinfo{
+        grid-template-columns: 40% 60%;
+    }
+}
+@media only screen and (max-width: 960px){
+    .epackage-info-container .evoucher-check-custonmerinfo{
+        grid-template-columns: 100%;
+    }
+}

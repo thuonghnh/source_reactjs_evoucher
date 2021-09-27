@@ -1,0 +1,9 @@
+.profile-redeemer-search{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.deprofile-value-table .table-responsive .icon-table{
+    padding: 5px 0px;
+}

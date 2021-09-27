@@ -1,0 +1,27 @@
+
+.issuer-container .row .input-keyword{
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.1);
+}
+
+.issuer-container .table-responsive table{
+    border-collapse: collapse;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.issuer-container .table-responsive table thead{
+    background-color: #3BB8C3;
+    
+}
+
+.issuer-container .table-responsive table thead td{
+    color: #fff !important;
+    padding: 5px 5px;
+    font-size: 1.1rem;
+}
+
+.issuer-container .table-responsive table tbody td{
+    padding: 2px 5px;
+    font-size: 1rem;
+}

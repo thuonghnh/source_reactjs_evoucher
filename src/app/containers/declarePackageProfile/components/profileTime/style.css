@@ -1,0 +1,41 @@
+.deprofile-app-container .deprofile-app-date{
+    padding-top: 1rem;
+    width: 50%;
+}
+
+.deprofile-app-container .validdate-container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1rem 0rem;
+    width: 100%;
+}
+
+.deprofile-app-container .validdate-container .validdate-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.deprofile-app-container .validdate-item .datenum-input{
+    width: 15%;
+    border: none;
+    border-bottom: 2px solid #3BB8C3;
+}
+
+.deprofile-app-container .validdate-grid{
+    display: grid;
+    grid-template-columns: 38% 62%;
+    grid-gap: 0rem 0rem;
+    padding-top: 1rem;
+}
+
+@media only screen and (max-width: 1400px){
+    .deprofile-app-container .validdate-container {
+        padding-top: 1rem;
+    }
+    .deprofile-app-container .validdate-grid{
+        grid-template-columns: 100%;
+    }
+}
+
+

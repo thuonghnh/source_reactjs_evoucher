@@ -1,0 +1,201 @@
+
+.applirange-container .row .choose button:hover{
+    color: white;
+    background:#3BB8C3 ;
+}
+.provincebtn{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    border: 1px solid rgba(208, 209, 212, 0.5);
+    height: 40px; 
+    color: #3BB8C3;
+    /* margin-top: 3vh; */
+    background-color: #fff;
+    min-width: 160px;
+
+}
+.storebtn{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: none;
+    border: 1px solid rgba(208, 209, 212, 0.5);
+    height: 40px; 
+    color: #3BB8C3;
+    /* margin-top: 3vh; */
+    background-color: #fff;
+    min-width: 150px;
+}
+.brandbtn{
+    border: 1px solid rgba(208, 209, 212, 0.5);
+    height: 40px; 
+    color: #3BB8C3;
+    /* margin-top: 3vh; */
+    background-color: #fff;
+    min-width: 170px;
+    
+}
+.applirange-container .row .SearchToolbar {
+    margin-top: 30px; 
+    width: 100%;
+}
+.applirange-container .row .SearchToolbar .areasel .select-container{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: 2px solid #3bb8c3
+}
+.applirange-container .row .SearchToolbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.applirange-container .row .SearchToolbar .provincesel .multiselect-container {
+    border-left: 2px solid #3bb8c3;
+    border-radius: 5px;
+}
+.searchbtn{
+    background-color: #3BB8C3;
+    border: none;
+    text-align:center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 50px;
+    height: 32.3px;
+}
+.searchbtnStore:hover{
+    background-color:#29777e
+}
+.searchbtnStore{
+    background-color: #3BB8C3;
+    border: none;
+    text-align:center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 110px;
+    height: 32.3px;
+    color: #fff;
+    
+}
+
+.searchbtn{
+    color: #fff;
+}
+
+.clearStorebtn{
+    color: #3BB8C3;
+    height: 29px;
+    margin-top: -5px;
+    text-align: center;
+    background: none;
+    border: none;
+    width: 200px;
+}
+.pd-botton .title span{
+    /* margin-left: 28px; */
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+    /* padding-top: 1rem; */
+}
+.applirange-container .row .table-responsive{
+    width: 100%;
+    /* overflow: auto; */
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    
+}
+.applirange-container .row .table-responsive table{
+    border-collapse: collapse;
+}
+.applirange-container .row .table-responsive tr{
+    /* border: 1px solid #f0f0f0; */
+    border-bottom: 1px solid #f0e7e7;
+    
+}
+.applirange-container .row .table-responsive thead td{
+    font-weight: 600;
+}
+.applirange-container .row .table-responsive td{
+    padding: 0rem .5rem;
+    font-size: 1rem;
+    color: #222;
+    text-align:center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.applirange-container .row .table-responsive .checked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title button{
+    border: none;
+    background: none;
+    color:#3BB8C3;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.pd-botton .title button{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+@media only screen and (max-width: 1252px){
+    .applirange-container .row .SearchToolbar {
+        display: block;}
+    .applirange-container .row .choose .provincebtn{
+        border-radius: 5px;
+    }
+    .applirange-container .row .choose .brandbtn{
+        border-radius: 5px;
+    }
+    .applirange-container .row .choose .storebtn{
+        border-radius: 5px;
+    }
+    .applirange-container .row .SearchToolbar .provincesel .select-container{
+        border-radius: 5px;
+        margin-bottom: 5px;
+
+    }
+    .applirange-container .row .SearchToolbar .storesel .select-container{
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .applirange-container .row .SearchToolbar .brandsel .select-container{
+        border-radius: 5px ;
+        border-right: 2px solid  #3BB8C3;
+        margin-top: 5px;
+    }
+    .applirange-container .row .SearchToolbar .searchbtnStore{
+        border-radius: 5px;
+    }
+    .applirange-container .row .SearchToolbar .areasel .select-container{
+        border-radius: 5px;
+    }
+    .applirange-container .row .SearchToolbar .searchbtn{
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 685px){
+    .applirange-container .row .SearchToolbar .brandsel .select-container{
+        border-top-left-radius: 5px ;
+        border-bottom-left-radius: 5px;
+        border-left: solid  #3BB8C3
+    }
+    .applirange-container .row .SearchToolbar .areasel .select-container{
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 459px){
+    .applirange-container .row .SearchToolbar .storesel .select-container, .searchbtn{
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 1500px){
+    .tdname{
+        text-align:left
+    }
+}

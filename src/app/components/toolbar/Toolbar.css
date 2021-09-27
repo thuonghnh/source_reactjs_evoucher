@@ -1,0 +1,71 @@
+/* .toolbar-component{
+    position: absolute;
+} */
+
+.toolbar-component button {
+    margin-left: 2rem;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    border: none;
+    background-color: #fff;
+}
+
+.toolbar-component .btn-add{
+    margin-left: 0rem;
+}
+
+.toolbar-component .btn-add i{
+    color: #3BB8C3;
+}
+
+.toolbar-component .btn-export i{
+    color: #3BB8C3;
+}
+.toolbar-component .btn-import i{
+    color: #3BB8C3;
+}
+
+.toolbar-component .btn-del i{
+    color: #E32D2D;
+}
+
+.toolbar-component button:focus{
+    outline: 0 !important;
+}
+.toolbar-component button>i {
+    font-size: 20px!important;
+}
+
+@media (max-width: 1180px) {
+    .toolbar-component button {
+        font-size: 20px!important;
+    }
+}
+
+@media screen and (min-width: 1120px) and (max-width: 1120px) {
+    
+    apptoolbar {
+        opacity: 1;
+    }
+    apptoolbar ~ .m-subheader ~ div#content {
+        top: 80px;
+        margin-bottom: 80px;
+        position: relative;
+    }
+    apptoolbar>div {
+        position: fixed;
+        top: 60px;
+        width: 100%;
+        display: flex;
+        background: white;
+        z-index: 9;
+    }
+    apptoolbar>div>button {
+        flex: 1;
+    }
+    .toolbar-component button {
+        padding-left: initial!important;
+        padding-right: initial!important;   
+    }
+}

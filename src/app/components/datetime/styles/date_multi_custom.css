@@ -1,0 +1,84 @@
+.datemulticustom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.datemulticustom-container .react-datepicker__triangle {
+    display: none;
+}
+
+.datemulticustom-container .react-datepicker__header__dropdown{
+    display: none;
+}
+
+.datemulticustom-container .datemulticustom-input {
+    border-bottom: 2px solid #3BB8C3;
+    padding: 0px 10px;
+    padding-top: 2px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* height: 31px */
+}
+
+.datemulticustom-container .datemulticustom-input i:hover{
+    cursor: pointer;
+}
+
+.datemulticustom-container .datemulticustom-input .datecontrol-none{
+    opacity: 0.5;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.datemulticustom-container .datemulticustom-input i{
+    color: #3BB8C3;
+    font-size: 1.5rem;
+}
+
+.datemulticustom-container .datemulticustom-input .choose-date{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.datemulticustom-container .datemulticustom-input .choose-date i{
+    margin-right: .8rem;
+}
+
+.datemulticustom-container .datemulticustom-input .clear-data i{
+    margin-left: .5rem;
+}
+
+
+.datemulticustom-container .react-datepicker__day--selected,
+.datemulticustom-container .react-datepicker__header {
+    background-color: #3BB8C3 !important;
+}
+
+.datemulticustom-container .react-datepicker__day:hover{
+    background-color: #e1fcff;
+}
+
+.datemulticustom-container .react-datepicker__day--keyboard-selected {
+    background-color: #fff !important;
+    color: #000;
+}
+
+.datemulticustom-container .react-datepicker-popper {
+    padding-top: 0px;
+    
+}
+
+.datemulticustom-container .react-datepicker{
+    border: 2px solid #3BB8C3;
+}
+
+.datemulticustom-container .react-datepicker__navigation-icon::before{
+    border-color: #fff;
+}

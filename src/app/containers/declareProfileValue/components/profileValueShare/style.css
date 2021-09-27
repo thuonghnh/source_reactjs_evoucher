@@ -1,0 +1,38 @@
+.profile-value-share-body{
+    background-color: #E5E5E5;
+    min-height: calc(100vh - 220px);
+}
+.profile-value-body{
+    margin: 0rem 1.5rem;
+    padding-top: .5rem;
+}
+
+.profile-value-child {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 1rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    min-height: calc(100vh - 280px - 1rem);
+}
+
+.profile-value-body .title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.profile-value-share-body .profile-value-body-btn{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile-value-body-btn button{
+    margin-left: 10px;
+}
+
+
+.profile-value-body-btn .btn-back:hover{
+    background-color: #f2ffff !important;
+}

@@ -1,0 +1,49 @@
+
+.deprofile-value-container .deprofile-value-header{
+    border-bottom: 2px solid #8f8f8f;
+    box-shadow: 0 4px 2px -2px gray;
+}
+.deprofile-value-container .deprofile-value-header .profile-value-name{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deprofile-value-container .deprofile-value-header .profile-value-name input{
+    border: none;
+    border-bottom: 1px solid #3BB8C3;
+}
+.deprofile-value-container .deprofile-value-header .profile-value-name div{
+    width: 95%;
+}
+.deprofile-value-container .deprofile-value-header .profile-value-name span{
+    font-size: 12px;
+    font-weight: 300;
+    float: right;
+}
+
+.deprofile-value-container .deprofile-value-header .profile-value-tabs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 1.5rem;
+}
+
+.deprofile-value-container .profile-value-tabs .item-tab{
+    margin-right: 1rem;
+    border: none;
+    background-color: #fff;
+    padding-top: .2rem;
+    padding-bottom: .5rem;
+}
+
+.deprofile-value-container .profile-value-tabs .item-tab span{
+    font-weight: 600;
+}
+.deprofile-value-container .profile-value-tabs .active-btn,
+.deprofile-value-container .profile-value-tabs .item-tab:hover{
+    color: #3BB8C3;
+    border-bottom: 2px solid #3BB8C3;
+}

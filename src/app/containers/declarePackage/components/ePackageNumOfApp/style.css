@@ -1,0 +1,37 @@
+
+.epackage-numofapp .input-numofapp{
+    border: none;
+    border-bottom: 2px solid #3BB8C3;
+}
+
+.epackage-numofapp .number-app {
+    padding-top: 1rem;
+}
+
+.epackage-numofapp .evoucher-btn{
+    border: none;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.epackage-numofapp .evoucher-btn .etypecus-icon{
+    font-size: 2.5rem;
+    padding-right: .5rem;
+    color: #3BB8C3;
+}
+
+
+.epackage-numofapp .evoucher-btn .timecheck-icon{
+    font-size: 2rem;
+    padding-right: .5rem;
+    color: #3BB8C3;
+}
+
+.epackage-numofapp .container-input {
+    padding-top: .5rem;
+}
+
+.epackage-numofapp .row .numofapp-column{
+    display: grid;
+}

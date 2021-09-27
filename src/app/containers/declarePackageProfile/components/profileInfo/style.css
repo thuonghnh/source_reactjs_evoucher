@@ -1,0 +1,68 @@
+
+.deprofile-info-container .valuetype-btn {
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.deprofile-info-container .valuetype {
+    display: flex;
+    align-items: center;
+}
+
+.deprofile-info-container .valuetype span{
+    padding-left: .5rem;
+    font-weight: 600;
+}
+
+.deprofile-info-container .valuetype img{
+    width: 2rem;
+}
+
+.deprofile-info-container .valuetype-btn span{
+    padding: 0rem .5rem;
+}
+
+.deprofile-info-container .input-deprofile{
+    border: none;
+    border-bottom: 2px solid #3BB8C3;
+}
+
+.deprofile-info-container .deprofile-status{
+    display: flex;
+    align-items: center;
+}
+
+.deprofile-info-container .deprofile-status-btn{
+    border: none;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.deprofile-info-container .deprofile-status-btn .status-icon{
+    font-size: 3rem;
+    padding-right: .3rem;
+}
+
+.deprofile-description textarea{
+    width: 83%;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-size: 14px;
+    max-height: 80px;
+    height: 80px;
+}
+
+.deprofile-discounttype {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: .5rem 0rem;
+}
+
+.deprofile-discounttype .discounttype-select .select-container{
+    border:none;
+    border-bottom: 2px solid #3BB8C3;
+}

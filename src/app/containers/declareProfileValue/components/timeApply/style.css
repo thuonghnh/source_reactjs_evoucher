@@ -1,0 +1,73 @@
+.profile-value-timeapply .from-group{
+    width: 100%;
+}
+
+.profile-value-timeapply .from-group .time-keeper-custom-container{
+    margin-top: .5rem;
+}
+
+.profile-value-timeapply .exact-time{
+    font-weight: 600;
+}
+
+.profile-value-timeapply .from-group .input-keyword{
+    margin-top: .5rem;
+    border: none;
+    border-bottom: 2px solid #3BB8C3;
+}
+
+.profile-value-timeapply .from-group-day .btn-day{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #3BB8C3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 130px;
+    min-width: 160px;
+    margin-right: 1rem;
+}
+
+.profile-value-timeapply .from-group-day{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-value-timeapply .btn-day img{
+    width: 80px;
+    padding-bottom: .5rem;
+}
+
+.profile-value-timeapply .btn-day span{
+    font-weight: 600;
+}
+
+.profile-value-timeapply .btn_item_day{
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 2px solid #3BB8C3;
+    background-color: #fff;
+    font-size: .9rem;
+    margin: 0rem .5rem;
+}
+
+.profile-value-timeapply .btn_item_day i{
+    padding-right: 5px;
+    font-size: .7rem;
+    opacity: .3;
+}
+
+.profile-value-timeapply .btn_item_day span{
+    font-weight: 600;
+}
+
+.profile-value-timeapply .dayinweek_name{
+    padding: 0px 10px;
+}
+
+.profile-value-timeapply .from-group .datecustom-container,
+.profile-value-timeapply .from-group .datemulticustom-container{
+    padding-top: .5rem;
+}

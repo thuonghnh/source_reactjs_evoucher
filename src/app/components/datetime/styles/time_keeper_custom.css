@@ -1,0 +1,88 @@
+.time-keeper-custom-container{
+    position: relative;
+    width: 100%;
+}
+
+.time-keeper-custom-container .react-timekeeper{
+    position: absolute;
+    z-index: 1;
+    border: 2px solid #3BB8C3;
+    margin-top: 1px;
+}
+
+.time-keeper-custom-container .time-keeper-custom-value{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 2px solid #3BB8C3;
+    padding: 0px 7px;
+}
+
+.time-keeper-custom-container .time-keeper-custom-value .choose-time
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.time-keeper-custom-container .time-keeper-custom-value .choose-time i{
+    margin-right: .6rem;
+    font-size: 1.8rem;
+    color: #3BB8C3;
+}
+
+.time-keeper-custom-container .time-keeper-custom-value i:hover{
+    cursor: pointer;
+}
+
+.time-keeper-custom-container .time-keeper-custom-value .clear-data{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.time-keeper-custom-container .time-keeper-custom-value .clear-data i{
+    margin-left: .6rem;
+    margin-right: .2rem;
+    font-size: 1.5rem;
+    color: #3BB8C3;
+}
+
+
+.time-keeper-custom-container .react-timekeeper .react-timekeeper__top-bar{
+    background-color: #3BB8C3;
+    padding: 0px 16px;
+    color: white;
+}
+
+.time-keeper-custom-container .react-timekeeper .react-timekeeper__clock-wrapper{
+    padding: 5px 0px;
+    padding-bottom: 0px;
+}
+
+.time-keeper-custom-container .react-timekeeper .react-timekeeper__top-bar .react-timekeeper__tb-hour--active,
+.time-keeper-custom-container .react-timekeeper .react-timekeeper__top-bar .react-timekeeper__tb-minute--active{
+    color: #6e6e6e;
+}
+
+.time-keeper-custom-container .react-timekeeper .react-timekeeper__top-bar span,
+.time-keeper-custom-container .react-timekeeper .react-timekeeper__top-bar .react-timekeeper-button-reset{
+    color: white;
+}
+
+.time-keeper-custom-container .react-timekeeper .react-timekeeper__clock-wrapper .react-timekeeper__meridiem--active{
+    background-color: #3BB8C3;
+    color: white;
+}
+
+.time-keeper-custom-container .react-timekeeper .btn-done-custom{
+    text-align: center;
+    padding: 5px 0px;
+    background-color: #3BB8C3;
+    color: white;
+}
+
+.time-keeper-custom-container .react-timekeeper .btn-done-custom:hover{
+    background-color: #24a2ad;
+    cursor: pointer;
+}

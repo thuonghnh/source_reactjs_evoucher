@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+select, textarea, input, button:focus {
+  outline: none !important;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.disabled{
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.col-md-4{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.table-responsive{
+  width: 100%;
+  /* overflow: auto; */
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.row{
+  padding: 1rem 1rem;
+}
+
+.row .pd-botton{
+  padding-bottom: 1rem;
+}
+
+.row .pd-top{
+  padding-top: 1rem;
+}
+
+.row .pd-right{
+  padding-right: 1rem;
+}
+
+.row .pd-left{
+  padding-left: 1rem;
+}
+
+.table-responsive .checked:hover{
+  cursor: pointer;
+}
+
+.table-responsive table{
+  border-collapse: collapse;
+}
+
+.table-responsive tr{
+  /* border: 1px solid #f0f0f0; */
+  border-bottom: 1px solid #f0f0f0;
+}
+.table-responsive thead td{
+  font-weight: 600;
+}
+
+.table-responsive td{
+  padding: 0rem .5rem;
+  font-size: .9rem;
+  color: #222;
+  text-align: center;
+}
+
+.table-responsive tbody tr:hover{
+  background-color: #f0f0f0;
+}
+
+.evoucher-title{
+  text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
